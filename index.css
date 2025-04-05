@@ -1,0 +1,78 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1B244A;
+            font-family: Arial, sans-serif;
+        }
+        
+        .scoreboard {
+            background-color: #1B244A;
+            padding: 40px;
+            display: flex;
+            gap: 100px;
+        }
+        
+        .team {
+            text-align: center;
+        }
+        
+        .team-name {
+            color: white;
+            font-size: 45px;
+            text-align: left;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .score-display {
+            background-color: #080001;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            width: 155px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #score {
+            color: #F94F6D;
+            font-size: 96px;
+            font-weight: 149px;
+            font-family: 'Digital-7 Mono', monospace;
+        }
+        
+        #score2 {
+            color: #F94F6D;
+            font-size: 96px;
+            font-weight: 149px;
+            font-family: 'Digital-7 Mono', monospace;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: 2px solid #9AABD8;
+            background: transparent;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        @import url('https://fonts.cdnfonts.com/css/digital-7-mono');
